@@ -1,0 +1,118 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+  container: {
+    flexGrow: 1,
+    justifyContent: "flex-start",
+    alignItems: "center",
+    backgroundColor:
+      "radial-gradient(circle at 10% 20%, rgb(0, 0, 0) 0%, rgb(64, 64, 64) 80.2%)",
+  },
+  data: {
+    marginTop: 40,
+  },
+  dataTitle: {
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 25,
+    borderBottomWidth: 2,
+    borderBottomColor: "#f0f0f0",
+    marginHorizontal: 15,
+  },
+  categoryText: {
+    textAlign: "center",
+    fontSize: 24,
+    color: "#fff",
+    fontWeight: "700",
+  },
+  subText: {
+    marginBottom: 12,
+    fontSize: 19,
+    color: "#fff",
+  },
+
+  uItem: {
+    backgroundColor: "rgba(13, 0, 201, 0.3)",
+    marginVertical: 10,
+    marginHorizontal: 10,
+    paddingVertical: 15,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderBottomWidth: 3,
+    borderBottomColor: "rgba(13, 0, 201, 0.9)",
+  },
+  nItem: {
+    backgroundColor: "rgba(0, 255, 0, 0.3)",
+    marginVertical: 10,
+    marginHorizontal: 10,
+    paddingVertical: 15,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderBottomWidth: 3,
+    borderBottomColor: "rgba(0, 255, 0, 0.5)",
+  },
+  ovItem: {
+    backgroundColor: "rgba(255, 165, 0, 0.3)",
+    marginVertical: 10,
+    marginHorizontal: 10,
+    paddingVertical: 15,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderBottomWidth: 3,
+    borderBottomColor: "rgba(255, 165, 0, 0.5)",
+  },
+  obItem: {
+    backgroundColor: "rgba(255, 0, 0, 0.3)",
+    marginVertical: 10,
+    marginHorizontal: 10,
+    paddingVertical: 15,
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    borderBottomWidth: 3,
+    borderBottomColor: "rgba(255, 0, 0, 0.5)",
+  },
+  recList: {
+    marginHorizontal: 18,
+    color: "#f0f0f0",
+    fontStyle: "italic",
+    textAlign: "justify",
+    fontSize: 18,
+  },
+  spanText: {
+    fontSize: 20,
+    color: "#f0f0f0",
+    fontWeight: "bold",
+    textAlign: "left",
+    marginLeft: 5,
+  },
+  footer: {
+    marginVertical: 10,
+    textAlign: "justify",
+    marginHorizontal: 16,
+    fontStyle: "italic",
+    borderRadius: 5,
+    paddingTop: 7,
+    paddingBottom: 7,
+    backgroundColor: "rgba(203, 220, 15, 0.5)",
+    borderTopWidth: 2,
+    borderBottomWidth: 2,
+    borderColor: "rgba(203, 220, 15, 0.8)",
+  },
+  reminder: {
+    textAlign: "justify",
+    paddingHorizontal: 5,
+    marginHorizontal: 14,
+    fontStyle: "italic",
+    marginVertical: 5,
+    color: "#f0f0f0",
+  },
+  nReminder: {
+    textAlign: "center",
+    marginHorizontal: 12,
+    fontStyle: "italic",
+    marginVertical: 5,
+    color: "#f0f0f0",
+  },
+});
+
+export { styles };
